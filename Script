@@ -1,0 +1,13 @@
+local placeId = game.PlaceId
+
+if placeId == 79332922783695 then
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kakaTuySigma99/Forgotten/heads/main/AyoChill"))()
+    end)
+elseif placeId == 121493238925077 then
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kakaTuySigma99/Test/refs/heads/main/KAKA%20HUB"))()
+    end)
+else
+    game.Players.LocalPlayer:Kick("Game Not Supported")
+end
